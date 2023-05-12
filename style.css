@@ -1,0 +1,11 @@
+body{
+    background-color: rgba(255, 99, 71, 0.5);
+    color: rgba(0, 0, 0, 0.7);
+    
+}
+.listas{
+    display: flex;
+}
+.form1, .form2, .form3{
+    padding: 1rem;
+}

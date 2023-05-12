@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventas mensuales de productos</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Ventas Mensuales de Productos</h1>
+    <div class='listas'>
+        <form class="form1">
+            <select name="list2" class="categoria">
+                <option value="Ropa" class="ropa">Ropa</option>
+                <option value="Auto" class="auto">Auto</option>
+                <option value="Moto" class="moto">Moto</option>
+            </select>
+        </form>
+        <form class="form2">
+            <select name="list2" class="categoria-2">
+                <option value="Zapato" class="zapato">Zapato</option>
+                <option value="Pantalon" class="pantalon">Pantalon</option>
+            </select>
+        </form>
+        <form class="form3">
+            <select name="list3" class="categoria-3">
+                <option value="Nike" class="nike">Nike</option>
+                <option value="Adidas" class="adidas">Adidas</option>
+            </select>
+        </form>
+        
+    </div>
+    <div class="grafica">
+        <canvas id="grafica"></canvas>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
